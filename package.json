@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "angular2": "2.0.0-alpha.44",
+    "bootstrap": "^3.3.5",
     "live-server": "^0.8.2",
     "systemjs": "0.19.2"
   },

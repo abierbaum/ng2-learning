@@ -1,15 +1,11 @@
-import {Component, bootstrap} from 'angular2/angular2';
+import {bootstrap, Component} from 'angular2/angular2'
+import {HeroFormComponent} from './hero-form.component'
 
 @Component({
   selector: 'my-app',
-  template: `
-    <h1>{{title}}</h1>
-    <h2>My favorite hero is: {{myHero}}</h2>
-    `
+  template: '<hero-form></hero-form>',
+  directives: [HeroFormComponent]
 })
-export class AppComponent {
-  title = 'Tour of Heroes';
-  myHero = 'Windstorm';
-}
+class AppComponent { }
 
 bootstrap(AppComponent);
